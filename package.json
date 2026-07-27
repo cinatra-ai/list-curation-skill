@@ -1,0 +1,17 @@
+{
+  "name": "@cinatra-ai/list-curation-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "CRM list-curation orchestration methodology — how to turn a plain-language intent into a reviewed CRM list: propose a scrape plan, pause at the scrape-schema gate, run scraping plus company and contact discovery through agent_run, pause at the final-list gate, then create the list and add its members. Extracted from @cinatra-ai/list-curator-agent (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "List Curation Skill",
+    "skillRole": "injectable",
+    "dependencies": []
+  }
+}
